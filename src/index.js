@@ -1,11 +1,8 @@
 import 'babel-polyfill';
-import './app/style/style.css';
+import './style/style.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Player from './app/containers/player';
+import Player from './components/Player';
 
-ReactDOM.render(
-  <Player/>,
-  document.getElementById('app')
-);
+ReactDOM.render(<Player name={'foo bar'}/>, document.getElementById('app'));

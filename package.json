@@ -1,7 +1,6 @@
 {
   "name": "react-player",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,9 +21,20 @@
     "babel-polyfill": "^6.13.0",
     "babel-preset-react": "^6.11.1",
     "font-awesome": "^4.6.3",
+    "howler": "^2.0.0",
     "jquery": "^3.1.0",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-redux": "^4.4.5"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelre/react-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michelre/react-player/issues"
+  },
+  "homepage": "https://github.com/michelre/react-player#readme",
+  "description": ""
 }

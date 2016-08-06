@@ -25,10 +25,26 @@
 
 .player .controls .buttons{
     display: inline-block;
-    width: 90px;
+    width: 75px;
 }
 
 .player .controls i{
     margin-left: 9px;
+    color: #A9A6A6;
+    font-size: 25px;
+}
+
+.player .controls .progress-bar{
+    position: relative;
+    top: -24px;
+    left: 75px;
+    width: 3px;
+    height: 20px;
+    background-color: #A9A6A6;
+}
+
+.player .controls .progress-bar .time{
+    padding-top: 22px;
+    margin-left: -9px;
     color: #A9A6A6;
 }
